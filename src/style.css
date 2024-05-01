@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #5585b5;
+  color: rgb(79, 131, 200);
   text-decoration: none;
   font-weight: bolder;
 }
@@ -17,7 +17,7 @@ a {
 }
 
 header {
-  background-color: rgba(9, 33, 68, 0.2);
+  background-color: rgba(0, 32, 74, 0.4);
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 .form-container {
-  background-color: rgba(9, 33, 68, 0.2);
+  background-color: rgba(0, 32, 74, 0.4);
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
@@ -51,7 +51,7 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgb(45, 67, 101);
+  border: 1px solid rgb(15, 59, 118);
   width: 80%;
   font-size: 14px;
   border-radius: 50px;
@@ -60,7 +60,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: rgb(45, 67, 101);
+  background: rgb(15, 59, 118);
   color: azure;
   border: none;
   width: 150px;
@@ -72,10 +72,10 @@ form {
 .haiku {
   font-size: 14px;
   color: azure;
-  background-color: rgba(78, 104, 142, 0.2);
+  background-color: rgba(0, 32, 74, 0.4);
   padding: 20px;
   line-height: 2;
-  border-left: 4px solid rgb(45, 67, 101);
+  border-left: 4px solid rgb(15, 59, 118);
 }
 
 .hidden {
