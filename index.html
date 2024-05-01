@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HaikueD</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Haiku for You 🖌</h1>
+    </header>
+    <main>
+      <div class="form-container">
+        <form id="haiku-generator-form">
+          <input type="text" placeholder="Enter the topic for the haiku" autofocus required autocomplete="off"
+            class="instructions" id="user-instructions" />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">i.e: Whale, Tomb or Daisy</div>
+      </div>
+      <div class="haiku hidden" id="haiku"></div>
+    </main>
+
+    <footer>
+      This AI project was coded with ❤ by <a href="https://github.com/DinaSof" target="_blank">Dinara Sufijanova</a> and
+      is <a href="">open-sourced on GitHub</a> and hosted on <a href="">Netlify</a>.
+    </footer>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
